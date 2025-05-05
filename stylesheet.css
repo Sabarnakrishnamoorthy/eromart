@@ -1,0 +1,512 @@
+    .one {
+      display: flex;
+      width: 100%;
+    }
+
+    .overall {
+      display: inline;
+      width: 100%;
+    }
+
+    .one {
+      display: inline;
+    }
+
+    .one img {
+      width: 250px;
+      height: auto;
+      position: relative;
+      top: 30px;
+      left: 90px;
+    }
+
+    .contact {
+      display: flex;
+      color: #6f7172;
+      width: 100%;
+      height: auto;
+      font-size: small;
+      margin-right: 50px;
+    }
+
+    .contact div {
+      position: relative;
+      left: 900px;
+      bottom: 30px;
+    }
+
+    .phone {
+      display: inline;
+    }
+
+    .phone img {
+      display: inline;
+      width: 20px;
+      height: auto;
+      font-size: small;
+      position: relative;
+      top: 0px;
+      left: 5px;
+      font-weight: lighter;
+    }
+
+    .phone p {
+      display: inline;
+      left: 5px;
+      top: 0px;
+    }
+
+    .mail {
+      display: inline;
+    }
+
+    .mail img,
+    p {
+      display: inline;
+      width: 20px;
+      height: auto;
+      font-size: small;
+      position: relative;
+      top: 0px;
+      left: 18px;
+    }
+
+    .navbar div {
+      width: 100%;
+      display: inline;
+      position: relative;
+      font-size: large;
+      font-weight: 450px;
+      top: 0%;
+      bottom: 13px;
+    }
+
+    .navbar a {
+      width: 100%;
+      display: inline;
+      position: relative;
+      left: 370px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+    }
+
+    .carousel-control-prev {
+      width: 30px;
+      height: 28px;
+      size: 10px;
+      background-color: #050505;
+      border: 2px solid rgba(0, 0, 0, 0.897);
+      margin: 200px 10px;
+    }
+
+    .carousel-control-next {
+      width: 30px;
+      height: 28px;
+      size: 10px;
+      background-color: #050505;
+      border: 2px solid black;
+      margin: 200px 10px;
+    }
+
+    .promo {
+      display: flex;
+      width: 100%;
+    }
+
+    .who {
+      display: inline;
+      width: 70%;
+      height: fit-content;
+      margin: 70px 100px;
+      text-align: justify;
+    }
+
+    .who h4 {
+      color: rgb(76, 76, 167);
+      font-family: sans-serif;
+    }
+
+    .product {
+      display: inline;
+      width: 28%;
+      height: fit-content;
+      margin-top: 70px;
+      margin-right: 80px;
+    }
+
+    .product h4 {
+      color: rgb(218, 31, 31);
+    }
+
+    .cashcountmachine {
+      display: flex;
+      width: 100%;
+      height: fit-content;
+      /* border: 2px solid; */
+    }
+
+    .cash {
+      display: flex;
+      width: fit-content;
+      height: fit-content;
+      margin: 0px 100px;
+      border: 10px solid transparent;
+
+    }
+
+    .cash img:hover {
+      border-radius: 9%;
+      box-sizing: border-box;
+      box-shadow: 0px 5px 18px 8px rgb(89, 77, 201);
+
+    }
+
+    .cash img {
+      width: 330px;
+      height: auto;
+    }
+
+    .count {
+      display: inline;
+      width: 70%;
+      color: rgb(86, 186, 199);
+      font-family: sans-serif;
+    }
+
+    .count h4 {
+      position: relative;
+      right: 70px;
+    }
+
+    .cards {
+      display: flex;
+      width: 100%;
+      height: fit-content;
+      position: relative;
+      top: 80px;
+      left: 5px;
+      justify-content: space-evenly;
+      text-align: center;
+    }
+
+    .cards a {
+      text-decoration: none;
+    }
+
+    .button1 {
+      margin-top: 70px;
+      margin-left: 520px;
+    }
+
+    .billingmachines {
+      display: flex;
+      width: 100%;
+    }
+
+    .billingmachines p {
+      font-family: sans-serif;
+      font-size: medium;
+      text-align: justify;
+    }
+
+    .billingmachines h3 {
+      color: rgb(70, 40, 206);
+      font-family: sans-serif;
+      margin-left: 18px;
+
+
+    }
+
+    .billing {
+      display: inline;
+      width: 100%;
+      margin-top: 80px;
+      margin-left: 100px;
+
+    }
+
+    .billpic {
+      display: inline;
+      /* width: 100%; */
+      margin-top: 80px;
+      margin-right: 60px;
+      position: relative;
+      justify-content: space-around;
+    }
+
+    .billpic img {
+      width: 350px;
+      height: fit-content;
+      margin-top: 50px;
+      margin-left: 50px;
+
+    }
+
+    .bill-card {
+      display: flex;
+      position: relative;
+      top: 40px;
+      left: 20px;
+      justify-content: space-around;
+      text-align: center;
+    }
+
+    .bill-card a {
+
+      font-family: sans-serif;
+      font-size: medium;
+      text-align: center;
+      color: rgb(70, 40, 206);
+      text-decoration: none;
+    }
+
+    .bill-card img {
+      width: 200px;
+      height: fit-content;
+      position: relative;
+      justify-content: space-around;
+    }
+
+    .button2 {
+      width: auto;
+      height: fit-content;
+      margin-top: 55px;
+      margin-left: 135px;
+      font-family: sans-serif;
+      font-size: smaller;
+    }
+
+    .button2 button:hover {
+      color: rgb(70, 40, 206);
+      background-color: rgb(93, 217, 248);
+    }
+
+    .Automation {
+      display: flex;
+      width: 100%;
+      height: fit-content;
+    }
+
+    .auto1 {
+      display: flex;
+      height: fit-content;
+      margin: 0px 100px;
+
+    }
+
+    .auto1 img {
+      width: 350px;
+      height: auto;
+    }
+
+    .auto2 {
+      /* display: flex; */
+      width: 70%;
+      color: rgb(86, 186, 199);
+      font-family: sans-serif;
+    }
+
+    .auto3{
+      display:flex;
+      position: relative;
+      top: 80px;
+      right: 50px;
+      justify-content: space-around;
+    }
+    .auto3 img
+    {
+      width: 200px;
+      height: auto;
+    }
+
+    .auto3 a {
+      text-decoration: none;
+    }
+
+    .button3 {
+      margin-top: 20px;
+      margin-left: 1150px;
+    }
+    .button3 button:hover {
+      color: rgb(251, 250, 253);
+      background-color: rgb(110, 34, 197);
+    }
+    .title h3
+    {
+      font-family: sans-serif;
+      color: rgb(24, 69, 165);
+      text-align: center;
+    }
+    /* .carousel-item img
+  {
+    width: 250px;
+    height:350px;
+  } */
+  .bestselling 
+  {
+    background-color: #dfe2e2;
+    width: 100%;
+    height:480px;
+  }
+  .bestselling h3
+  {
+    color: rgb(24, 69, 165);
+    text-align: center;
+    padding-top: 50px;
+
+  }
+
+  .best
+  {
+    background-color: #dfe2e2;
+    display: flex;
+    column-gap: 50px;
+    height: fit-content;
+  }
+  .best div
+  {
+    background-color: #dfe2e2;
+      display: flex;
+      width: 100%;
+      height: fit-content;
+      position: relative;
+      top: 40px;
+      left: 150px;
+      height: fit-content;
+      justify-content: space-around;
+      text-align: center;
+  }
+  .best div img
+  {
+    background-color: #c1caca;
+    border: 2px solid black;
+  }
+  .best h5
+  {
+    width:15rem;
+    height:2rem;
+    position: relative;
+    padding-top: 6px;
+    bottom: 20px;
+    right: 145px;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: medium;
+  }
+  .footer
+  {
+    width: 100%;
+    height: 400px;
+    background-color:#050505;
+    display: flex;
+    color: white;
+    text-align: justify;
+  } 
+  .eromartlogo
+  {
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+    width: 250px;
+    height: auto;
+  }
+  .eromartlogo img
+  {
+    width: 250px;
+    height: auto;
+    position: relative;
+    left: 20px;
+  }
+  .eromartlogo p
+  {
+    position:relative;
+    right: 65px;
+    font-family: sans-serif;
+    font-size:small;
+  }
+  .cash
+  { 
+    display: inline;
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+    height: auto;
+    font-family: sans-serif;
+    font-size:medium;
+  }
+  .cashcount a
+  {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size:small;
+    line-height: 25px;
+    position: relative;
+    bottom: 32px;
+  }
+  .automation
+  {
+    margin-top: 80px;
+    width: 250px;
+    height: auto;
+    display:inline;
+    font-family: sans-serif;
+    font-size:medium;
+  }
+  .auto4 a
+  {
+    line-height: 25px;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size:small;
+  }
+  .contactus
+  {
+    font-family: sans-serif;
+    font-size:medium;
+    margin-top: 80px;
+    color: white;
+    width: 250px;
+    height: auto;
+    display:inline;
+  }
+  .contactus p
+  {
+    color: white;
+    padding-top: 50px;
+    position: relative;
+    right: 0px;
+    top:20px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size:small;
+  }
+  .mobile
+  {
+    padding-top: 35px;
+  }
+  .mobile p
+  {
+    font-family: sans-serif;
+  font-size: medium;
+  top:0px;
+  left:5px;
+  }
+  .email
+  {
+    padding-top: 20px;
+  }
+.email p
+{
+  font-family: sans-serif;
+  font-size: medium;
+  top: 0px;
+  left: 10px;
+}

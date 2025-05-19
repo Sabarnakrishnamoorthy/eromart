@@ -1,14 +1,17 @@
-    .one {
-      display: flex;
+.all
+    {
       width: 100%;
+      height:auto;
     }
-
+    
     .overall {
       display: inline;
       width: 100%;
     }
 
     .one {
+      width: 100%;
+      height:auto;
       display: inline;
     }
 
@@ -30,13 +33,21 @@
     }
 
     .contact div {
-      position: relative;
-      left: 900px;
-      bottom: 30px;
+      width: 100%;
+      height:auto;
+      display: inline;
+      /* position: relative;
+      left:0px;
+      bottom: 35px; */
     }
 
     .phone {
       display: inline;
+      width: 100%;
+      height:auto;
+      position:relative;
+      left: 750px;
+      bottom: 35px;
     }
 
     .phone img {
@@ -45,19 +56,24 @@
       height: auto;
       font-size: small;
       position: relative;
-      top: 0px;
-      left: 5px;
       font-weight: lighter;
     }
 
     .phone p {
       display: inline;
+      width: 100%;
+      height:auto;
       left: 5px;
-      top: 0px;
     }
 
     .mail {
       display: inline;
+      width: 100%;
+      height:auto;
+      position: relative;
+      left: 170px;
+      bottom: 21px;
+
     }
 
     .mail img,
@@ -67,8 +83,7 @@
       height: auto;
       font-size: small;
       position: relative;
-      top: 0px;
-      left: 18px;
+      left: 0px;
     }
 
     .navbar div {
@@ -78,14 +93,22 @@
       font-size: large;
       font-weight: 450px;
       top: 0%;
-      bottom: 13px;
+      left: 10px;
+      bottom: 25px;.
     }
 
-    .navbar a {
+    .navbar {
       width: 100%;
-      display: inline;
+      height: auto;
+      display:flex;
       position: relative;
-      left: 370px;
+      left: 343px;
+    }
+
+    .carousel
+    {
+      width: 100%;
+      height: auto;
     }
 
     .carousel-indicators [data-bs-target] {
@@ -231,7 +254,6 @@
 
     .billpic {
       display: inline;
-      /* width: 100%; */
       margin-top: 80px;
       margin-right: 60px;
       position: relative;
@@ -304,7 +326,7 @@
     }
 
     .auto2 {
-      /* display: flex; */
+      display: flex;
       width: 70%;
       color: rgb(86, 186, 199);
       font-family: sans-serif;
